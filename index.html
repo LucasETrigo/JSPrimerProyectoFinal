@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Primer Entrega Proyecto Final</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="grilla">
+        <h1 class="tituloUno">Generador De Claves</h1>
+        <h3 class="claveEjemplo">Clave</h3>
+
+        <form action="" class="formulario" id="formularioGenerador">
+            <label for="numeroCantidadCaracteres">Numero de Caracteres</label>
+            <div class="divCaracteres">
+                <input type="range" min="1" max="50" value="10" id="barraCantidadCaracteres">
+                <input type="number" min="1" max="50" value="10" class="inputNumeros" id="numeroCantidadCaracteres">
+            </div>
+
+
+            <label for="incluirMayusculas">Incluir Mayusculas</label>
+            <input type="checkbox" id="incluirMayusculas">
+
+            <label for="incluirSimbolos">Incluir Simbolos</label>
+            <input type="checkbox" id="incluirSimbolos">
+
+            <label for="incluirNumeros">Incluir Numeros</label>
+            <input type="checkbox" id="incluirNumeros">
+
+            <button type="submit" class="btn">Generar Clave</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

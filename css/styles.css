@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010001;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grilla {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f03f78), to(#d02f67));
+        background-image: linear-gradient(180deg, #f03f78, #d02f67);
+        box-shadow: 0 8px 40px -5px rgba(170, 31, 57, .92);
+        -webkit-transition: opacity .2s, box-shadow .2s, -webkit-filter .2s;
+        transition: opacity .2s, filter .2s, box-shadow .2s, -webkit-filter .2s;
+        padding: 3rem;
+        border-radius: 1rem;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.tituloUno {
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.claveEjemplo {
+    position: relative;
+    bottom: 17px;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 2px solid #010001;
+    height: 3.1rem;
+    width: 350px;
+    text-align: center;
+    word-break: break-all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+}
+
+.divCaracteres {
+    display: flex;
+    align-items: center;
+}
+
+.inputNumeros {
+    width: 2.2rem;
+}
+
+
+.btn {
+    grid-column: span 2;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .6rem;
+}
+.btn:hover {
+    background-color: #FFFFFF33;
+}
